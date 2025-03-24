@@ -56,9 +56,9 @@ Weights are not included in this repository due to licensing restrictions. You m
 
 #### 🔗 Download From
 
-- **Hugging Face**: [Stable Diffusion v1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
+- **Hugging Face**: [Stable Diffusion v1.5 Weights](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main)
   - Download `v1-5-pruned-emaonly.ckpt`
-- **Tokenizer Files**
+- **Tokenizer Files** [Stable Diffusion v1.5 Files](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main/tokenizer)
   - Download `vocab.json` and `merges.txt`
 
 Place all three files into the `weights/` folder in your project root.

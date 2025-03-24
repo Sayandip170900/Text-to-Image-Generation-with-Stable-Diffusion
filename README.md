@@ -22,7 +22,7 @@ StableDiffusion/
 
 ## Setup Instructions
 
-### 1. 🔁 Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Sayandip170900/Text-to-Image-Generation-with-Stable-Diffusion.git
@@ -42,11 +42,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 📥 Download Required Weights
+### Download Required Weights
 
 Weights are not included in this repository due to licensing restrictions. You must manually download and place them into the `weights/` directory.
 
-#### ✅ Files Needed
+#### Files Needed
 
 | File | Description |
 |------|-------------|
@@ -56,16 +56,16 @@ Weights are not included in this repository due to licensing restrictions. You m
 
 #### 🔗 Download From
 
-- 🧠 **Hugging Face**: [Stable Diffusion v1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
+- **Hugging Face**: [Stable Diffusion v1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)
   - Download `v1-5-pruned-emaonly.ckpt`
-- 🧠 **Tokenizer Files**
+- **Tokenizer Files**
   - Download `vocab.json` and `merges.txt`
 
 Place all three files into the `weights/` folder in your project root.
 
 ---
 
-## 🚀 Run the Generator
+## Run the Generator
 
 ```bash
 python generate.py
